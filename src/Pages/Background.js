@@ -44,15 +44,6 @@ const Background = () => {
             <li className={darkMode ? 'whitee2' : 'item'}>Bash</li>
             <li className={darkMode ? 'whitee2' : 'item'}>BitBucket</li>
           </ul>
-//           <ul className='skills-list-1'>
-//             <li className={darkMode ? 'whitee' : 'label'}>Design</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>Sketch</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>InDesign</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>InVision</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>Wireframe</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>Testing</li>
-//             <li className={darkMode ? 'whitee2' : 'item'}>Adobe</li>
-//           </ul>
         </div>
       </div>
     </div>
