@@ -666,3 +666,12 @@ THEN 400 AND LOWER*/
   }
 }
 
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+  .intro {
+    margin-top: -150px;
+  }
+  .intro-container {
+    width: 800px;
+  }
+
+}
