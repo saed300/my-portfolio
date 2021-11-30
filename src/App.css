@@ -673,5 +673,8 @@ THEN 400 AND LOWER*/
   .intro-container {
     width: 800px;
   }
+   .section-projects-background {
+    margin-left: 200px;
+  }
 
 }
