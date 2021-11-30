@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import movie from '../Images/image1.png'
 import form from '../Images/image2.png'
 import model from '../Images/image3.png'
