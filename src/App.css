@@ -674,11 +674,16 @@ THEN 400 AND LOWER*/
   }
   .section-title {
     position: absolute;
-    left: -200px;
+    /* left: -200px;
+    top: -50px; */
+    left: -210px;
     top: -50px;
   }
   .paragraph-content {
     width: 400px;
+  }
+  .paragraph-content:nth-child(1) {
+    margin-top: -30px;
   }
   .skills-background {
     position: relative;
