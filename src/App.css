@@ -467,7 +467,7 @@ body {
   }
   /*project*/
   .section-projects-background {
-    margin-top: 600px;
+    margin-top: 800px;
     position: relative;
     left: -100px;
     margin-right: 200px;
@@ -539,7 +539,7 @@ THEN 600
 THEN 400 AND LOWER*/
 
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   
   .switch-platform {
     position: relative;
@@ -548,7 +548,7 @@ THEN 400 AND LOWER*/
     position: absolute;
     margin-left: 1020px;
   }
-}
+} */
 
 @media screen and (max-width: 1540px) {
   .section-background {
@@ -576,7 +576,7 @@ THEN 400 AND LOWER*/
   }
 }
 
-@media screen and (max-height: 670px) {
+/* @media screen and (max-height: 670px) {
 
   .section-background {
     margin-top: 150px;
@@ -584,7 +584,6 @@ THEN 400 AND LOWER*/
   .section-projects-background {
     margin-top: 800px;
   }
-
 }
 
 @media screen and (max-height: 594px) {
@@ -595,10 +594,10 @@ THEN 400 AND LOWER*/
   .section-projects-background {
     margin-top: 1000px;
   }
-}
+} */
 
 
-@media screen and (max-width: 1024px)  {
+/* @media screen and (max-width: 1024px)  {
   .intro {
     margin-top: -110px;
   }
@@ -615,9 +614,9 @@ THEN 400 AND LOWER*/
     position: absolute;
     left: 20px;
   }
-}
+} */
 
-@media screen and (max-width: 768px)  {
+/* @media screen and (max-width: 768px)  {
   .intro {
     margin-top: -110px;
   }
@@ -646,23 +645,82 @@ THEN 400 AND LOWER*/
     position: absolute;
     left: 20px;
   }
-}
+} */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .intro {
     margin-top: 0px;
   }
   .intro-container {
-    width: 800px;
+    width: 700px;
+    position: relative;
+  }
+  .intro-main-paragraph {
+    font-size: 30px;
+  }
+  .intro-heading  {
+    font-size: 30px;
+  }
+  .intro-tagline {
+    position: absolute;
+    left: 400px;
+  }
+  .bold-paragraph {
+    font-size: 30px;
   }
   .section-background {
-    margin-top: -400px;
+    position: relative;
+    margin-top: 200px;
+  }
+  .section-title {
+    position: absolute;
+    left: -200px;
+    top: -50px;
+  }
+  .paragraph-content {
+    width: 400px;
   }
   .skills-background {
-    margin-top: -100px;
+    position: relative;
   }
-  .section-projects-background {
-    margin-top: -100px;
+  .skills-title {
+    position: absolute;
+    left: -200px;
+    top: 250px;
+  }
+  .skills-list-1 {
+    display: inline-block;
+    overflow-wrap: break-word;
+  }
+  .parent-text-and-image {
+    margin-left: -250px;
+  }
+  .project-title {
+    margin-left: -300px ;
+  }
+  .project-description {
+    margin-left: -300px;
+  }
+  .project-title-2 {
+    margin-left: -300px ;
+  }
+  .project-description-2 {
+    margin-left: -300px;
+  }
+  .project-title-3 {
+    margin-left: -300px ;
+  }
+  .project-description-3 {
+    margin-left: -300px;
+  }
+  .intro-tagline {
+    margin-left: -400px;
+  }
+  .github-title {
+    margin-left: 30px;
+  }
+  .footer-section {
+    display: none;
   }
 }
 
@@ -673,8 +731,7 @@ THEN 400 AND LOWER*/
   .intro-container {
     width: 800px;
   }
-   .section-projects-background {
+  .section-projects-background {
     margin-left: 600px;
   }
-
 }
