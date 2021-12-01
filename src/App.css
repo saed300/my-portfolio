@@ -740,7 +740,7 @@ THEN 400 AND LOWER*/
     width: 60px;
   }
   .intro {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 900px;
   }
   .intro-heading {
@@ -775,7 +775,7 @@ THEN 400 AND LOWER*/
     margin-top: -1200px;
   }
   .section-title {
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 22px;
   }
   .section-content {
